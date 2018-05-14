@@ -1,8 +1,8 @@
 {
-  "name": "vue-select",
-  "version": "2.4.0",
+  "name": "@eli5/vue-select",
+  "version": "2.4.1",
   "description": "A native Vue.js component that provides similar functionality to Select2 without the overhead of jQuery.",
-  "author": "Jeff Sagal <sagalbot@gmail.com>",
+  "author": "Sem Bakkum <sem@eli5.io>",
   "private": false,
   "main": "dist/vue-select.js",
   "license": "MIT",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sagalbot/vue-select.git"
+    "url": "git+https://github.com/eli5-amsterdam/vue-select.git"
   },
   "peerDependencies": {
     "vue": "2.x"
@@ -84,5 +84,14 @@
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0",
     "webpack-merge": "^0.13.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sagalbot/vue-select/issues"
+  },
+  "homepage": "https://github.com/sagalbot/vue-select#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {}
 }
